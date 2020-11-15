@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# CS3219 Assignment Tasks B1-B4
 
-You can use the [editor on GitHub](https://github.com/raniceyue/cs3219-b/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Overview
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is the repo for my submission for the CS3219 OTOT Assignment Tasks B1-B4 which consists of a small full stack web application.
+The application models an inventory manager for an action figure collection where users can keep track of their action figure collection, their prices and if they are listing the action figure for sale or not.
 
-### Markdown
+You can view the deployed application here
+- [Backend](https://cs3219-assignment-b-backend.et.r.appspot.com/)
+- [Frontend](https://cs3219-assignment-b-frontend.et.r.appspot.com/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Implementation
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/raniceyue/cs3219-b/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This application was implemented using a MERN stack i.e. MongoDB, Express.js, React and Node, where Node and Express were used for the API server and React was used for the application's frontend. Travis CI/CD has been used for automated testing of the API server as well as automated deployment of both the frontend and the backend. 
