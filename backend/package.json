@@ -1,0 +1,37 @@
+{
+  "name": "assignment-b",
+  "version": "1.0.0",
+  "description": "Simple API for CS3219 Assignment B",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha --timeout 10000 test/exit-mocha.js test/*js",
+    "dev": "nodemon --exec npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raniceyue/cs3219.git"
+  },
+  "author": "Ranice Tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raniceyue/cs3219/issues"
+  },
+  "homepage": "https://github.com/raniceyue/cs3219#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "concurrently": "^5.3.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.4"
+  }
+}

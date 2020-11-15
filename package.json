@@ -1,0 +1,19 @@
+{
+  "name": "cs3219-assignment-b",
+  "version": "1.0.0",
+  "description": "Assignment B for CS3219",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd backend && npm test",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\""
+  },
+  "author": "Ranice Tan",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "concurrently": "^5.3.0"
+  },
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}

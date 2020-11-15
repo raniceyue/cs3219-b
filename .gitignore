@@ -1,0 +1,6 @@
+**/node_modules/
+**/assignment/
+**/backend.json
+**/build/
+**/frontend.json
+**/.env
