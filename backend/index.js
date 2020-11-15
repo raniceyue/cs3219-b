@@ -6,9 +6,7 @@ let mongoose = require('mongoose');
 let cors = require("cors");
 let bodyParser = require('body-parser');
 
-require('dotenv').config()
-
-const port = env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 let app = express();
 
@@ -19,7 +17,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const MongoClient = require('mongodb').MongoClient;
-const uri = env.DB_URI;
+const uri = process.env.DB_URI;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 client.connect(err => {
   const collection = client.db("test").collection("devices");
